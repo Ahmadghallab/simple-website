@@ -1,0 +1,46 @@
+/*=======================
+MEDIUM SIZE SCREEN
+========================*/
+@media screen and (min-width: 660px) {
+  .post {
+    width: 45%;
+    float: left;
+  }
+}
+
+/*=======================
+LARGE SIZE SCREEN
+========================*/
+@media screen and (min-width: 1005px) {
+  /*=======================
+  PORTFOLIO PAGE
+  ========================*/
+  main {
+    width: 80%;
+  }
+  .post {
+    width: 28.3333333%;
+    float: left;
+  }
+  /*=======================
+  ABOUT PAGE
+  ========================*/
+  .personal-info {
+    width: 70%;
+    margin: 25px auto;
+  }
+  /*=======================
+  CONTACT PAGE
+  ========================*/
+  #wrapper {
+    width: 50%;
+  }
+  #primary {
+    float: left;
+    width: 40%;
+  }
+  #secondary {
+    float: right;
+    width: 50%;
+  }
+}
